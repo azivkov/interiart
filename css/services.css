@@ -1,0 +1,113 @@
+.header {
+    background-color: #50443b;
+}
+
+.ourservices {
+    background-image: url(../images/beige_living_room2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 150vh;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.servicesone {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    transition: 0.5 all ease-in-out;
+}
+
+.servicestwo {
+    display: flex;
+    justify-content: center;
+}
+
+.servicesone div,
+.servicestwo div {
+    width: 400px;
+    margin: 1rem;
+    background-color: #eedbcbe3;
+    border-radius: 25px;
+    border: 1px solid #594536;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    transition: 0.3s all ease-in-out;
+}
+
+.servicesone div:hover, .servicestwo div:hover {
+    background-color: #594536;
+    border: 1px solid #d1aa80;
+}
+
+.ourservices h3 {
+    color: #9f6f4c;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+}
+
+.ourservices p {
+    color: #594536;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 1.6rem;
+    transition: 0.3s all ease-in-out;
+    margin-top: 0;
+}
+
+.ourservices .fa-solid {
+    text-align: center;
+    color: #594536;
+    font-size: 1.5rem;
+    transition: 0.3s all ease-in-out;
+
+}
+
+.servicesone div:hover h3, .servicestwo div:hover h3 {
+    color: #f5e8da;
+}
+
+.servicesone div:hover p, .servicestwo div:hover p {
+    color: #f3dac0;
+}
+
+.servicesone div:hover .fa-solid, .servicestwo div:hover .fa-solid {
+    color: #f5e8da;
+}
+
+.serv1,
+.serv2,
+.serv3,
+.serv4,
+.serv5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:800px) {
+    .ourservices {
+        height: auto;
+    }
+
+    .servicesone, .servicestwo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicesone div, .servicestwo div {
+        width: 70vw;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ourservices {
+        padding-top: 150px;
+    }
+}

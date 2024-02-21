@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InteriArt | Kontakt</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header main-font">
+            <ul>
+                <li><a href="index.html">NASLOVNA</a></li>
+                <li><a href="about.html">O NAMA</a></li>
+                <li id="logo"><img src="images/interiart11.png" width="50px"></li>
+                <li><a href="services.html">USLUGE</a></li>
+                <li><a href="gallery.html">GALERIJA</a></li>
+                <li><a href="contact.html">KONTAKT</a></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <div class="contactform">
+                <h1 class="quart-font">Kontaktirajte nas</h1>
+                <form>
+                    <label for="ime">Ime i prezime: <br>
+                    <input type="text" name="ime" id="ime" required></label>
+                    <br><br>
+                    <label for="email">E-mail: <br>
+                    <input type="email" name="email" id="email" required></label>
+                    <br><br>
+                    <label for="poruka">Vaša poruka: <br>
+                    <textarea placeholder="Napišite poruku" name="poruka" rows="7" cols="40" id="poruka" required></textarea></label>
+                    <br><br>
+
+                    <label for="privola"><input type="checkbox" id="privola" name="privola" value="yes"
+                        required><span class="privola">Prihvaćam prikupljanje i obradu osobnih podataka danih u
+                        obrascu bez kojih moj zahtjev ne može biti ispunjen.</span></label><br><br>
+                    <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter"
+                        value="newsletter"><span>Prijavi me na
+                        Newsletter</span></label><br><br>
+                    <button type="submit">Pošaljite poruku</button> <button type="reset">Izbrišite</button>
+                </form>
+            </div>
+
+            <div class="contactimg">
+                <img src="images/img11.jpg">
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="linkovi">
+                <ul> Mapa web stranice
+                    <li><a href="index.html">Naslovna stranica</a></li>
+                    <li><a href="about.html">O nama</a></li>
+                    <li><a href="services.html">Usluge</a></li>
+                    <li><a href="gallery.html">Galerija</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="socmedia">
+                <ul> Društvene mreže
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook" alt="facebook" title="Facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram" alt="instagram" title="Instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter" alt="twitter" title="Twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok" alt="tiktok" title="Tiktok"></i> Tiktok</a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube" alt="youtube" title="Youtube"></i> Youtube</a></li>
+                </ul>
+            </div>
+
+            <div class="newsletter">
+                <p>Prijavite se na naš Newsletter!</p>
+                <input type="email"> <button>Prijavi se</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        ScrollReveal().reveal('.estetika');
+
+    </script>
+</body>
+
+</html>

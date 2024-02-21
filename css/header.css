@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100vw;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    z-index: 1;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header a {
+    color: #dab388;
+    text-decoration: none;
+    transition: 0.5s all linear;
+}
+
+.header a:hover {
+    color: white;
+}
+
+@media screen and (max-width:700px) {
+    .header ul {
+        flex-wrap: wrap;
+    }
+
+    .header li {
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header ul {
+        flex-wrap: wrap;
+    }
+
+    .header li {
+        padding: 0 1rem 0 1rem;
+    }
+
+    li#logo {
+        display: none;
+    }
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Montserrat+Alternates&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family: 'Canela';
+    src: url(../fonts/CanelaText-Regular-Trial.otf);
+}
+
+@font-face {
+    font-family: 'Brandon';
+    src: url(../fonts/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf);
+}
+
+.main-font {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.sec-font {
+    font-family: 'Canela';
+}
+
+.tert-font {
+    font-family: 'Brandon';
+}
+
+.quart-font {
+    font-family: 'Playfair Display', serif;
+}
+
+.main-color {
+    color: rgb(232, 232, 232);
+}
+
+.sec-color {
+    color: #cda274;
+}
+
+.tert-color {
+    color: #50443b;
+}
+
+.quart-color {
+    color: #6d5c51;
+}
+
+.quint-color {
+    color:  #7c3838;
+}

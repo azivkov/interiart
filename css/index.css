@@ -1,0 +1,437 @@
+.bigimage {
+    height: 100vh;
+    background-image: url(../images/Luxury-interior-design-home-designing-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro {
+    width: 312px;
+    font-size: 6rem;
+    color: #f3f3f3;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.intro2 {
+    width: 332px;
+    font-size: 6rem;
+    color: #ececec;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.estetika {
+    background-color: #f2e5cd;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+h1.description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: #322b25;
+    padding-top: 5rem;
+}
+
+.estetika1 {
+    width: 500px;
+    align-self: flex-start;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.estetika1 button {
+    margin-right: 1rem;
+    align-self: flex-end;
+    background-color: #50443b;
+    border: none;
+    transition: 0.3s all linear;
+    font-family: 'Playfair Display', serif;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+}
+
+.estetika1 button:hover {
+    background-color: #f3dac0;
+}
+
+.estetika1 a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    transition: 0.3s all linear;
+}
+
+.estetika1 button:hover a {
+    color: rgb(110, 59, 5);
+}
+
+.estetika1 p {
+    padding-right: 1rem;
+    text-align: justify;
+}
+
+.estetika2 {
+    width: 500px;
+    align-self: center;
+}
+
+.estetika2 img {
+    width: 500px;
+    margin-top: 2rem;
+}
+
+hr.description {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 98%;
+    background-color: rgb(110, 59, 5);
+    height: 1px;
+}
+
+.services {
+    background-color: #856e5d;
+    padding-top: 3rem;
+}
+
+h1.services {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0;
+    padding-left: 1rem;
+    color: #f5e8da;
+}
+
+.services {
+    display: flex;
+}
+
+.services img {
+    display: none;
+}
+
+.servicesintro,
+.consulting,
+.threed,
+.odabir {
+    width: 25%;
+    margin: 1rem;
+    height: 350px;
+}
+
+.consulting,
+.threed,
+.odabir {
+    background-color: #50443b;
+    color: #f5e8da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consulting p,
+.threed p,
+.odabir p {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.servicesintro {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicesintro p {
+    color: #f5e8da;
+    padding: 1.5rem;
+    text-align: justify;
+}
+
+.servicesintro button {
+    margin-right: 1rem;
+    align-self: center;
+    background-color: #f3dac0;
+    border: none;
+    transition: 0.3s all linear;
+    font-family: 'Playfair Display', serif;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+}
+
+.servicesintro button:hover {
+    background-color: #50443b;
+}
+
+.servicesintro a {
+    text-decoration: none;
+    color: rgb(110, 59, 5);
+    transition: 0.3s all linear;
+}
+
+.servicesintro button:hover a {
+    color: rgb(226, 226, 226);
+}
+
+.projects {
+    background-color: #ffecca;
+}
+
+h1.projects {
+    margin-top: 0;
+    padding-top: 2rem;
+    color: #322b25;
+    text-align: center;
+}
+
+.project1,
+.project3 {
+    display: flex;
+    height: 100vh;
+}
+
+.project1img,
+.project1title,
+.project3img,
+.project3title {
+    width: 50%;
+}
+
+.project1img {
+    background-image: url(../images/TheKariBlogImg2.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project3img {
+    background-image: url(../images/interior.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project1title,
+.project3title {
+    align-self: center;
+}
+
+.project1title p,
+.project3title p {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.project2 {
+    display: flex;
+    height: 96vh;
+}
+
+.project2img,
+.project2title {
+    width: 50%;
+}
+
+.project2img {
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/Luxury-interior-design2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project2title {
+    align-self: center;
+}
+
+.project2title p {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.iskustva {
+    background-color: #856e5d;
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.iskustva h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2rem;
+    color: #f5e8da;
+}
+
+.recenzije {
+    margin-top: 2rem;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iskustvaintro {
+    width: 25%;
+    align-self: center;
+}
+
+.iskustvaintro p {
+    color: #f5e8da;
+    padding: 1.5rem;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+}
+
+.rec1,
+.rec2,
+.rec3,
+.rec4 {
+    width: 42%;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color:  #ead8c4;
+    font-family: 'Playfair Display', serif;
+    color: #765d4c;
+    padding: 1rem;
+    text-align: justify;
+}
+
+@media screen and (max-width:800px) {
+    .bigimage {
+        flex-wrap: wrap;
+    }
+
+    .intro, .intro2 {
+        width: 30vw;
+        font-size: 3rem;
+    }
+
+    .estetika2 img {
+        max-width: 100%;
+    }
+
+    .estetika1 {
+        padding-left: 1rem;
+    }
+
+    .services {
+        flex-wrap: wrap;
+    }
+
+    .servicesintro {
+        width: auto;
+        height: auto;
+    }
+
+    .consulting, .threed, .odabir {
+        width: 26%;
+    }
+
+    .iskustvaintro {
+        align-self: flex-start;
+    }
+
+    .rec1, .rec2, .rec3, .rec4 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .project1title p, .project2title p, .project3title p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .bigimage {
+        flex-direction: column;
+    }
+    
+    .intro {
+        padding-top: 5rem;
+    }
+
+    .estetika {
+        flex-direction: column;
+    }
+
+    .estetika2 {
+        order: 1;
+        max-width: 70vw;;
+    }
+
+    .estetika1 {
+        order: 2;
+        width: auto;
+        align-self: center;
+    }
+
+    .estetika1 p {
+        max-width: 70vw;
+    }
+
+    .estetika1 h1 {
+        font-size: 1.2rem;
+        width: 70vw;
+    }
+
+    .estetika1 button {
+        align-self: flex-start;
+    }
+
+    hr.description {
+        display: none;
+        width: auto;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .consulting, .threed, .odabir {
+        width: auto;
+    }
+
+    .project1img, .project3img {
+        background-attachment: scroll;
+    }
+
+    .project2img {
+        height: auto;
+    }
+
+    .project1, .project2, .project3 {
+        height: auto;
+    }
+
+    .project1title p, .project2title p, .project3title p {
+        font-size: 1.5rem;
+    }
+
+    .iskustva {
+        flex-direction: column;
+    }
+
+    .iskustvaintro {
+        order: 1;
+        width: auto;
+    }
+
+    .recenzije {
+        order: 2;
+        width: auto;
+    }
+}

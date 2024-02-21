@@ -1,0 +1,56 @@
+.header {
+    background-color: #50443b;
+}
+
+.gallery {
+    padding-top: 75px;
+    background-color: #f9ebdd;
+    color: #322b25;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.gallery p {
+    width: 600px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.gallery hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 98%;
+    background-color: rgb(110, 59, 5);
+    height: 0.5px;
+}
+
+.allimages1, .allimages2, .allimages3, .allimages4 {
+    display: flex;
+    justify-content: center;
+}
+
+.allimages1 img, .allimages2 img, .allimages4 img {
+    margin: 1rem;
+    width: 24vw;
+}
+
+.allimages3 img {
+    width: 37vw;
+    margin: 1rem;
+}
+
+#wideimg, #wideimg2 {
+    width: 50vw;
+}
+
+@media screen and (max-width:600px) {
+    .gallery p {
+        width: 70vw;
+    }
+}

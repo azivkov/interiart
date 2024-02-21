@@ -1,0 +1,103 @@
+.header {
+    background-color: #50443b;
+}
+
+.contact {
+    background-color: #e2d0c3;
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactform {
+    padding: 0 1rem 1rem 2rem;
+    border-radius: 25px;
+    background-color: #f8ebdf;
+
+}
+
+.contactform h1 {
+    color: #322b25;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.contactform, .contactimg {
+    width: 30%;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contactimg img {
+    border-radius: 20px;
+}
+
+#ime, #email {
+    margin-top: 0.5rem;
+    width: 400px;
+    height: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+textarea {
+    margin-top: 0.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+form {
+    font-family: 'Playfair Display', serif;
+}
+
+input[type=checkbox] {
+    accent-color: #50443b;
+}
+
+.contactform button {
+    background-color: #50443b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    transition: 0.3s all ease-in-out;
+}
+
+.contactform button:hover {
+    color: #50443b;
+    background-color: rgb(255, 235, 213);
+}
+
+@media screen and (max-width:1200px) {
+    .contactform input, .contactform textarea {
+        max-width: 100%;
+    }
+
+    .contactimg img {
+        max-width: 100%;
+    }
+
+    .contactimg {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .contactimg {
+        display: none;
+    }
+
+    .contactform {
+        width: 70vw;
+        padding-right: 3rem;
+    }
+
+    #ime, #email, textarea {
+        width: 65vw;
+    }
+
+    .contactform h1 {
+        font-size: 2rem;
+    }
+}
