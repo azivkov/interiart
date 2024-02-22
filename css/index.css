@@ -407,6 +407,8 @@ h1.projects {
 
     .project1img, .project3img {
         background-attachment: scroll;
+        width: auto;
+        height: 45vh;
     }
 
     .project2img {
@@ -415,10 +417,33 @@ h1.projects {
 
     .project1, .project2, .project3 {
         height: auto;
+        width: auto;
+    }
+
+    .project2 {
+        flex-direction: column;
+    }
+
+    .project2title {
+        order: 2;
+    }
+
+    .project2img {
+        order: 1;
+        height: 45vh;
+        width: auto;
+    }
+
+    .project1title, .project2title, .project3title {
+        width: auto;
     }
 
     .project1title p, .project2title p, .project3title p {
         font-size: 1.5rem;
+    }
+
+    .project1, .project3 {
+        flex-direction: column;
     }
 
     .iskustva {

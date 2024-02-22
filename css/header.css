@@ -36,6 +36,7 @@ body {
 @media screen and (max-width:700px) {
     .header ul {
         flex-wrap: wrap;
+        padding-left: 0;
     }
 
     .header li {
@@ -54,5 +55,5 @@ body {
 
     li#logo {
         display: none;
-    }
+    } 
 }

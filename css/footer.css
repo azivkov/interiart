@@ -62,4 +62,8 @@
     .footer {
         flex-wrap: wrap;
     }
+
+    .footer ul {
+        padding-left: 0;
+    }
 }
